@@ -1,0 +1,27 @@
+@model List<Urun>
+
+@section Bar
+{
+    @await Component.InvokeAsync("Navbar")
+}
+
+<section class="pt-3">
+        <div class="container">
+            <h3 class="h4 mb-1 mb-lg-3">Ürün Listesi</h3>
+
+            @if (Model.Count == 0)
+            {
+                <div class="alert alert-danger">Ürün bulunamadı.</div>
+            }
+
+            <div class="row">
+                @foreach(var urun in Model)
+                {
+                <div class="col lg-3 col-md-4 col-6 mb-2">
+                    @await Html.PartialAsync("Partials/_KonferansCard",urun)
+                </div>
+                }
+            </div>
+        </div>
+
+</section>

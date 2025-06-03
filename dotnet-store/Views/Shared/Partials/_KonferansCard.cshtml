@@ -1,0 +1,14 @@
+@model Urun
+
+<div class="card shadow">
+    <img src="~/img/@Model.Resim" alt="@Model.UrunAdi" class="card-img-top">
+        <div class="border-top info-wrap">
+            <a href="#" class="float-end btn btn-light">
+                <i class="fa fa-heart"></i>
+            </a>
+            <a asp-controller="Urun" asp-action="Details" asp-route-id="@Model.Id" class="title text-truncate">@Model.UrunAdi</a>
+            <div class="price-wrap">
+                <span class="price">@Model.Fiyat</span>
+            </div>
+        </div>
+</div>

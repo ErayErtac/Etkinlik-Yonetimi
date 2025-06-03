@@ -1,0 +1,182 @@
+:root
+{
+    --primary: #3D90D7;
+
+}
+.top-bar
+{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #B5FCCD;
+}
+
+.btn-light
+{
+    background-color: #3D90D7;
+    color: black;   
+}
+
+.btn-primary
+{
+    background-color: #3D90D7;
+}
+
+.navbar-brand
+{
+    font-size: 2rem;
+    color: black;   
+}
+
+.btn-primary, .bg-primary
+{
+    background-color: var(--primary);
+}
+
+.navbar 
+{
+    background-color: #3D90D7 !important;
+}
+
+.navbar .nav-link 
+{
+    color: black !important;
+    font-size: large;
+}
+
+.navbar .nav-link:hover 
+{
+    color: #B5FCCD !important;
+}
+
+.navbar .nav-link.active 
+{
+    color: #e74c3c !important;
+}
+
+.slider-nav
+{
+    max-height: 250px;
+}
+
+.nav-link 
+{
+    color: black !important; 
+    font-size: large;
+    
+}
+  
+.nav-link:hover 
+{
+    color: black !important;
+}
+
+.slider_nav .nav-link 
+{
+    border: 1px solid black;         /* Kutuyu çerçeveler */
+    border-radius: 8px;             /* Köşeleri yuvarlatır, isteğe bağlı */
+    margin-bottom: 10px;            /* Kutu aralarına boşluk */
+    padding: 10px 15px;             /* İç boşluk (kutu içeriği) */
+    background-color: #B5FCCD;      /* Arka plan rengi */
+    color: #333;                    /* Yazı rengi */
+    text-align: center;            /* Metni ortalar */
+    transition: 0.3s all ease;      /* Yumuşak geçiş efekti */
+}
+  
+
+.slider_nav .nav-link:hover 
+{
+    background-color: #3D90D7;
+    color: #000;
+}
+  
+
+.slider_nav .nav-link.active 
+{
+    background-color: #3D90D7;
+    color: #fff;
+    border-color: #007bff;
+}
+
+.info-wrap
+{
+    padding: 1rem 1.2rem;
+}
+  
+.title
+{
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+footer 
+{
+    background-color: #3D90D7;
+}
+
+footer .btn-outline-warning 
+{
+    border-color: #000 !important;
+    color: #000 !important;
+}
+
+footer .btn-outline-warning:hover 
+{
+    background-color: #000 !important;
+    color: #fff !important;
+    border-color: #000 !important;
+}
+
+footer .btn-outline-warning:hover i 
+{
+    color: #fff !important;
+}
+
+.breadcrumb a
+{
+    color: #000;
+    text-decoration: none;
+}
+
+.breadcrumb .breadcrumb-item
+{
+    color: #000;
+    text-decoration: none;
+}
+
+.bg-primary 
+{
+    background-color: #3D90D7 !important;
+}
+
+.sepete-ekle-btn 
+{
+    background-color: #3D90D7;
+    color: #000;
+    border: none;
+}
+
+.listeye-ekle-btn 
+{
+    background-color: #B5FCCD;
+    color: #000;
+    border: none;
+}
+
+
+.sepete-ekle-btn:hover 
+{
+    background-color:#e74c3c;
+    color: white;
+}
+
+.listeye-ekle-btn:hover 
+{
+    background-color: #e74c3c;
+    color: #333;
+}
+
+
+
+
+ 
